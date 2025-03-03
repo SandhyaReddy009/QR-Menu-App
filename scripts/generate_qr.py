@@ -42,7 +42,7 @@ if __name__ == "__main__":
     print("===========================")
     
     # Default to localhost:5173/menu if running locally
-    default_url = "http://localhost:5173/menu"
+    default_url = "https://qr-menu-app-igca.onrender.com/menu"
     
     url_input = input(f"Enter the URL for your menu page (default: {default_url}): ")
     url = url_input if url_input.strip() else default_url
